@@ -1,4 +1,4 @@
-# Darknet-docker-image
+# Darknet, docker-image
 
 Repositorio con la imagen de docker usada para el proyecto final de plataformas computacionales a gran escala.
 
