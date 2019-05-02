@@ -13,5 +13,6 @@ WORKDIR /workspace/darknet/
 RUN make
 
 RUN apt-get install wget -y
+RUN chmod 777 -R /workspace/
 
 CMD /bin/bash
