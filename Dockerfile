@@ -12,4 +12,6 @@ WORKDIR /workspace/darknet/
 
 RUN make
 
+RUN apt-get install wget -y
+
 CMD /bin/bash
