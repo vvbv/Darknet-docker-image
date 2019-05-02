@@ -13,6 +13,7 @@ WORKDIR /workspace/darknet/
 RUN make
 
 RUN apt-get install wget -y
+COPY yolov3.weights /workspace/darknet/yolov3.weights
 RUN chmod 777 -R /workspace/
 
 CMD /bin/bash
